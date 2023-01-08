@@ -11,9 +11,3 @@ Python 3.6+
 flask
 
 wudao
-
-# 3.项目运行实例
-
-![](D:\cache\MarkText\picture\2023-01-08-17-23-08-image.png)
-
-![](D:\cache\MarkText\picture\2023-01-08-17-23-16-image.png)
