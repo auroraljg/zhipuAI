@@ -1,0 +1,60 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+  <body background="static/2.jpg"
+        style="background-repeat:no-repeat
+        background-attachment:fixed;
+        background-size:100% 100%; ">
+	</body>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>大模型春联</title>  
+</head>
+
+<body>
+<style>
+.font{ font-family: 华文行楷; font-size: 36pt; color: #000000; font-weight: bold; 
+               background-color: #FF0000 }
+.font1{ font-family: 华文行楷; font-size: 36pt; color: #000000; font-weight: bold }
+-->
+</style>
+
+
+<div style="position: absolute; top: 230; left: 600; width: 160; height: 160; font-size: 120pt; font-family: 华文行楷">春</div>
+<div style="position: absolute; top: 40; left: 425; width: 527; height: 388">
+  <table border="0" cellpadding="0" cellspacing="0" width="527" height="231">
+    <tr>
+      <td height="21" width="46"></td>
+      <td height="21" width="449">
+        </td>
+      <td height="21" width="51"></td>
+    </tr>
+	<tr>      
+	  <td height="21" width="46"></td>      
+	    <td height="20" width="449">        
+            <p align="center">
+		        <span class=font>
+			        春节快乐
+			    </span>
+	    </td>      
+        <td height="21" width="51"></td>    
+    </tr> 
+    <tr>
+      <td height="211" width="46" align="center" class="font">
+        <p align="center">
+        {% for hs1 in hstr1 %}
+              {{ hs1 }}<br>
+         {% endfor %}
+        </td>
+      <td height="211" width="449" align="center"></td>
+      <td height="211" width="51" align="center" class="font">
+      {% for hs2 in hstr2 %}
+              {{ hs2 }}<br>
+         {% endfor %}
+      </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
